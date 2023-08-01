@@ -1,5 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&family=Quicksand:wght@300&family=Roboto:wght@400;500&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#contact {
+    background-color: #050527;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.fromContainer {
+    padding: 40px;
+    width: 55vw
+}
+
+.fromContainer span {
+    font-size: 70px;
+}
+
+form {
+    margin-top: 30px;
+    width: 510px;
+}
+
+.fromContainer form input[type="text"],
+.fromContainer form textarea,
+.fromContainer form input[type="email"] {
+    color: white;
+    width: 500px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.fromContainer form input:focus {
+    border-bottom: 2px solid #ee930b;
+}
+
+.fromContainer form textarea {
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+.submitBtn {
+    font-size: 20px;
+    background-color: #ee930b;
+    float: right;
+    color: white;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 20px 0px 0px 0px;
+}
+
+.submitBtn:hover {
+    border-radius: 40px;
+
+}
+
+.line {
+    width: 2px;
+    height: 500px;
+    background-color: #ee930b;
+}
+
+.socialSection {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon
+{
+    margin: 10px;
+}
+
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftSection img 
+{
+    margin-left: 30px;
 }

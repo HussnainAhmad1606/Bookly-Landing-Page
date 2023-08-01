@@ -1,1 +1,58 @@
 /* File for responsive styling */
+
+@media only screen and (max-width: 900px) {
+    #contact
+    {
+        flex-direction: column;
+        width: 98.7vw;
+        overflow: hidden;
+    }
+    .line{
+        display: none;
+    }
+    .fromContainer{
+        width: 95.7vw !important;
+        padding: 10px !important;
+        margin: 0px;
+    }
+    .fromContainer span {
+        font-size: 50px !important;
+    }
+    form{
+        width: 90vw;
+        padding: 10px;
+        margin: 0px;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+    #contact
+    {
+        flex-direction: column;
+        width: 98.7vw;
+        overflow: hidden;
+        justify-content: center;
+    }
+    .line{
+        display: none;
+    }
+    .fromContainer span {
+        font-size: 40px !important;
+    }
+
+    form{
+        width: 300px !important;
+    }
+    .fromContainer form input[type="text"],
+.fromContainer form textarea,
+.fromContainer form input[type="email"] {
+    width: 300px !important;
+    overflow: hidden;
+}
+.leftSection img 
+{
+    width: 300px !important;
+    margin: 0px !important;
+}
+
+}
