@@ -1,5 +1,5 @@
 /* File for responsive styling */
-/* File for responsive styling */
+/* For Navbar */
 @media screen and (max-width:992px) {
 
     .action-btn,
@@ -15,14 +15,12 @@
         display: block;
     }
 }
-
 @media(max-width:576px) {
     .dropdown-menu {
         left: 2rem;
         width: unset;
     }
 }
-
 /* File for responsive styling */
 
 @media only screen and (max-width: 900px) {
