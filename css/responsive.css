@@ -1,1 +1,22 @@
 /* File for responsive styling */
+@media screen and (max-width:992px) {
+
+    .action-btn,
+    .navbar {
+        display: none;
+    }
+
+    nav .toggle-btn {
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: block;
+    }
+}
+@media(max-width:576px){
+    .dropdown-menu{
+        left:2rem;
+        width:unset;
+    }
+}
