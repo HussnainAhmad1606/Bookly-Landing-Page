@@ -1,6 +1,6 @@
 /* File for responsive styling */
 /* For Navbar */
-@media screen and (max-width:992px) {
+@media screen and (max-width:1000px) {
 
     .action-btn,
     .navbar {
@@ -21,9 +21,22 @@
         width: unset;
     }
 }
-/* File for responsive styling */
+/* For hero section */
+@media  screen and (max-width:576px) {
+    .hero{
+        padding:0px 50px;
+    }
+    .hero h1{
+        font-size:1.7rem;
+    }
+    .hero p{
+        font-size:0.7rem;
+    }
+}
 
-@media only screen and (max-width: 900px) {
+/* File for responsive styling of contact us */
+
+@media only screen and (max-width: 1000px) {
     #contact {
         flex-direction: column;
         width: 98.7vw;
