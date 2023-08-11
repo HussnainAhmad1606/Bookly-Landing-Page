@@ -47,6 +47,17 @@
         width: 80px;
     }
 }
+/* For Porfolio section */
+@media screen and (max-width:425px) {
+    .left h1{
+        font-size: 3rem;
+    }
+    .left p{
+        font-size: 1rem;
+    }
+   
+}
+
 /* File for responsive styling of contact us */
 
 @media only screen and (max-width: 1000px) {

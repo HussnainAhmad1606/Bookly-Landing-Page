@@ -7,9 +7,11 @@
     font-family: 'Poppins', sans-serif;
     color: white;
 }
-body{
+
+body {
     background-color: #050527;
 }
+
 .heading {
     color: #ee930b;
     text-align: center;
@@ -91,7 +93,7 @@ nav .toggle-btn {
     backdrop-filter: blur(15px);
     border-radius: 15px;
     overflow: hidden;
-    /* transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+    transition: height 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .dropdown-menu.open {
@@ -174,7 +176,7 @@ nav .toggle-btn {
     width: 30%;
     min-width: 500px;
     height: 500px;
-    padding-bottom: 40px ;
+    padding-bottom: 40px;
 }
 
 .information {
@@ -201,51 +203,115 @@ nav .toggle-btn {
     border-radius: 50%;
 
 }
-.user{
+
+.user {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.user .name{
+
+.user .name {
     padding: 5px;
-    color:#ee930b;
-    font-size:1.3rem;
+    color: #ee930b;
+    font-size: 1.3rem;
 }
-.user .info{
+
+.user .info {
     font-size: 0.7rem;
     text-align: center;
 }
 
 /* Benifits-section */
-.benifits{
+.benifits {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
-.box{
-    border:2px solid #ee930b;
+
+.box {
+    border: 2px solid #ee930b;
     background: #121226;
     width: 45%;
-    max-width:700px;
-    min-width:300px;
-    height:auto;
+    max-width: 700px;
+    min-width: 300px;
+    height: auto;
     margin: 20px 0px;
     padding: 20px 25px;
-    border-radius:40px ;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    transition: 0.7s ease-out;
 }
-.box h3{
+
+.box:hover {
+    transform: scale(1.1);
+
+}
+
+.box h3 {
     font-size: 1.2rem;
 }
-.box i{
+
+.box i {
     font-size: 1.5rem;
 }
 
+/* Portfolio */
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
 
+.left {
+    width: 60%;
+    max-width: 700px;
+    min-width: 350px;
+    padding: 15px 30px;
+}
+
+.left h1 {
+    font-size: 4rem;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.left p {
+    font-size: 1.4rem;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.left h1 span {
+    color: #fc9f14;
+}
+
+.left button {
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #ee930b;
+    color: #ee930b;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.left button:hover {
+    transform: scale(1.1);
+}
+
+.portfolio .right img {
+    height: 30rem;
+    max-height: 500px;
+}
 
 
 
