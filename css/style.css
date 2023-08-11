@@ -142,7 +142,7 @@ nav .toggle-btn {
 
 /* For testimonials section */
 #testimonials-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/backgrounds/testimonials-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/testimonials-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -189,7 +189,7 @@ nav .toggle-btn {
 .img {
     height: 30%;
     width: 30%;
-    background: url("/img/backgrounds/user.JPG");
+    background: url("../img/backgrounds/user.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

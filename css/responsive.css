@@ -33,7 +33,20 @@
         font-size:0.7rem !important;
     }
 }
-
+/* For Testimonials section */
+@media screen and (max-width:576px) {
+    .card{
+        min-width: 300px;
+        height: 500px !important;
+    }
+    .information{
+        height: 400px !important;
+    }
+    .img{
+        height: 80px;
+        width: 80px;
+    }
+}
 /* File for responsive styling of contact us */
 
 @media only screen and (max-width: 1000px) {
