@@ -7,6 +7,15 @@
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+body{
+    background-color: #050527;
+}
+.heading {
+    color: #ee930b;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0px;
+}
 
 nav {
     display: flex;
@@ -148,12 +157,6 @@ nav .toggle-btn {
     background-size: cover;
 }
 
-#testimonials-section h1 {
-    color: #ee930b;
-    text-align: center;
-    font-size: 2rem;
-    padding: 20px 0px;
-}
 
 .reviews {
     display: flex;
@@ -211,6 +214,35 @@ nav .toggle-btn {
 .user .info{
     font-size: 0.7rem;
     text-align: center;
+}
+
+/* Benifits-section */
+.benifits{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    border:2px solid #ee930b;
+    background: #121226;
+    width: 45%;
+    max-width:700px;
+    min-width:300px;
+    height:auto;
+    margin: 20px 0px;
+    padding: 20px 25px;
+    border-radius:40px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box h3{
+    font-size: 1.2rem;
+}
+.box i{
+    font-size: 1.5rem;
 }
 
 
