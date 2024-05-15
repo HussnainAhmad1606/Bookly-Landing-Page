@@ -9,7 +9,7 @@ toggleBtn.onclick = function () {
 }
 document.addEventListener("DOMContentLoaded", function() {
     // Create an audio element
-    var audio = new Audio("../music/test.mp3");
+    var audio = new Audio("music/test.mp3");
 
     // Autoplay the audio when it's loaded
     audio.autoplay = true;
